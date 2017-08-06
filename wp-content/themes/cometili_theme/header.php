@@ -23,12 +23,15 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<div class="section">
+	<div class="section navegacao">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2">
 					<a href="<?php echo get_option('home') ?>">
-					<img class="animated flipInX" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Cometili Logo"></a>
+					<img class="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Cometili Logo"></a>
+				</div>
+				<div class="col-md-10">
+					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 				</div>	
 			</div>
 		</div>
