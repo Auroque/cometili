@@ -1,3 +1,3 @@
 <?php 
 
-include 'links/link-bootstrap.php'
+include 'links/link-bootstrap.php';
