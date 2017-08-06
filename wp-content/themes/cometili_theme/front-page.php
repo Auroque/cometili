@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-		<div class="section portifolio">
-		<div class="container wow fadeInDown">
+		<div class="section slider">
+		<div class="container">
 			<div class="row">
 			<?php 
 			$sections = new WP_Query(
