@@ -16,6 +16,10 @@ Version: 1.0
 	height: auto;
 }
 
+.posicao{
+	float: right;
+}
+
 .menu ul{
 	list-style: none;
 	line-height: 78px;
@@ -30,5 +34,9 @@ Version: 1.0
 	text-decoration: none;
 	color: #ffffff;
 	text-transform: uppercase;;
-	font-weight: 700;
+	font-weight: 500;
+}
+
+.login{
+	line-height: 78px;
 }
