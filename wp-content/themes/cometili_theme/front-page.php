@@ -1,4 +1,26 @@
 <?php get_header(); ?>
+	<script type="text/javascript">
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay: true,
+    navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});
+	</script>
 		<div class="section slider">
 		<div class="container">
 			<div class="row">
@@ -28,4 +50,5 @@
 			</div>
 		</div>
 	</div>
+	
 <?php get_footer(); ?>
