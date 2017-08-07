@@ -30,12 +30,29 @@ Version: 1.0
 	margin-left: 10px;
 }
 
+.current_page_item a{
+	padding: 10px;
+	background-color: #064550;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
 .menu ul li a{
 	text-decoration: none;
 	color: #ffffff;
 	text-transform: uppercase;;
 	font-weight: 500;
+	padding: 10px;
 }
+
+
+.menu ul li a:hover{
+	padding: 10px;
+	background-color: #064550;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
 
 .login{
 	line-height: 78px;
