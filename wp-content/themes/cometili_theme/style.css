@@ -88,3 +88,7 @@ body{
     color: #ffffff;
     z-index: 99999;
 }
+
+.owl-carousel .owl-stage-outer{
+	height: 526px;
+}
