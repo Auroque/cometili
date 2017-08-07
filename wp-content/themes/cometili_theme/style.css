@@ -16,6 +16,7 @@ body{
 
 .navegacao2{
 	height: 78px;
+	position: relative;
 	z-index: 999;
 }
 
