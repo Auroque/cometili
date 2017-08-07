@@ -15,9 +15,10 @@ body{
 }
 
 .navegacao2{
-	height: 78px;
-	position: relative;
-	z-index: 999;
+	width: 100%;
+    height: 78px;
+    position: absolute;
+    z-index: 999;
 }
 
 .logo{
@@ -69,11 +70,12 @@ body{
 }
 
 .slider-container{
-	width: 100%;
-	height: 800px;
-	top:-78px;
-	position: absolute;
-	z-index: -1;
+	float: left;
+    width: 100%;
+    height: 530px;
+    top: -78px;
+    position: relative;
+    z-index: -1;
 }
 
 .slide-title{
@@ -91,4 +93,14 @@ body{
 
 .owl-carousel .owl-stage-outer{
 	height: 526px;
+}
+
+.projeto{
+	float: left;
+	margin: 0 15px;
+}
+
+.projeto img{
+	width: 100%;
+	height: auto;
 }

@@ -25,4 +25,7 @@ $sections = new WP_Query(
 		</div>
 	</div>
 </div>
+<div class="projeto">
+	<img src="<?php bloginfo('template_directory'); ?>/img/projeto.jpg">
+</div>
 <?php get_footer(); ?>
