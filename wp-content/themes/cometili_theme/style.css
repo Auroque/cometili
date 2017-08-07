@@ -5,6 +5,10 @@ Description: Sistema.
 Version: 1.0
 */
 
+body{
+	background: #f0f0f0;
+}
+
 .navegacao{
 	height: 78px;
 	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
