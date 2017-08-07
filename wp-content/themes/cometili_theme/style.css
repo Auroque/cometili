@@ -10,6 +10,11 @@ Version: 1.0
 	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
 }
 
+.navegacao2{
+	height: 78px;
+	z-index: 999;
+}
+
 .logo{
 	padding: 5px 0;
 	width: 100%;
@@ -56,4 +61,11 @@ Version: 1.0
 
 .login{
 	line-height: 78px;
+}
+
+.slider-container{
+	width: 100%;
+	top:-78px;
+	position: absolute;
+	z-index: -1;
 }
