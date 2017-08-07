@@ -16,8 +16,8 @@ $sections = new WP_Query(
 				<?php if ($sections->have_posts()): ?>
 					<?php while ($sections->have_posts()) : $sections->the_post(); ?>
 					<div class="item">
-						<img alt="thumb image" class="wp-post-image" 
-	             src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
+						<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
+						<h1 class="slide-title"><?php the_title(); ?></h1>
 					</div>
 					<?php endwhile; ?>
 				<?php endif; ?>
