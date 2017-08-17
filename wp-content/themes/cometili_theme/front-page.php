@@ -93,7 +93,7 @@ $sections = new WP_Query(
 							<?php if ($sections->have_posts()): ?>
 								<?php while ($sections->have_posts()) : $sections->the_post(); ?>
 								<div class="item">
-									<?php the_post_thumbnail(); ?>
+									<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
 								</div>
 								<?php endwhile; ?>
 							<?php endif; ?>
@@ -125,7 +125,7 @@ $sections = new WP_Query(
 							<?php if ($sections->have_posts()): ?>
 								<?php while ($sections->have_posts()) : $sections->the_post(); ?>
 								<div class="item">
-									<?php the_post_thumbnail(); ?>
+									<img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
 								</div>
 								<?php endwhile; ?>
 							<?php endif; ?>
