@@ -227,3 +227,26 @@ h3{
 	font-weight: bold;
 	font-size: 20px;
 }
+
+.social{
+	list-style: none;
+}
+
+.social li{
+	margin-left: 10px;
+	line-height: 80px;
+	display: inline;
+}
+
+.social li a img{
+	opacity: 0.8;
+}
+
+.social li a img:hover{
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.sep-social{
+	float: right;
+}
