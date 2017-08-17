@@ -36,7 +36,7 @@
 					</div>
 				</div>	
 				<div class="col-md-1 login">
-					<a class="btn btn-default" href="#" role="button">LOGIN</a>						
+					<a class="btn btn-default" href="http://www.cometili.com.br/sistema" role="button" target="_blank">LOGIN</a>						
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 					</div>
 				</div>	
 				<div class="col-md-1 login">
-					<a class="btn btn-default" href="#" role="button">LOGIN</a>						
+					<a class="btn btn-default" href="http://www.cometili.com.br/sistema" role="button" target="_blank">LOGIN</a>						
 				</div>
 			</div>
 		</div>
