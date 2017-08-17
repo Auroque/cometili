@@ -15,10 +15,19 @@ h3{
 	font-weight: bold;
 }
 
-.navegacao{
-	height: 78px;
-	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
+.nagevacao1{
+	display: none;
 }
+
+.navegacao{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 90px;
+	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
+	z-index: 999;
+}
+
 
 .rodape{
 	margin-top: 25px;

@@ -25,3 +25,13 @@ $(document).ready(function(){
     }
 })
 });
+
+
+// MENU RETRATIL
+    $(window).scroll(function() {               
+         if($(this).scrollTop()<150){
+            $('.navegacao').fadeOut();
+         }else{
+            $('.navegacao').fadeIn();
+         }
+    });
