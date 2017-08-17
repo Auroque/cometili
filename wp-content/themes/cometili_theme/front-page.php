@@ -20,7 +20,7 @@ $sections = new WP_Query(
 	        <img alt="thumb image" class="wp-post-image" src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:650px;">
 	        <div class="caption center-align">
 	          <h3><?php the_title(); ?></h3>
-	          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+	          <h5 class="light grey-text text-lighten-3"><?php the_excerpt(); ?></h5>
 	        </div>
 	      </li>
 		<?php endwhile; ?>
@@ -71,5 +71,69 @@ $sections = new WP_Query(
 		</div>
 	</div>
 </div>
+
+<!-- Início de Parceiros -->
+ <div class="section">
+ 	<div class="container parceiros">
+ 		<div class="row">	
+ 						<?php 
+			$sections = new WP_Query(
+				array(
+					'post_type' => 'parceiros',
+					'ignore_sticky_posts' => true,
+					'showposts' => -1,
+					'orderby' => 'title',
+					'order' => 'ASC'
+					)
+			);
+			?>
+				<h1>Parceiros</h1>
+				<div class="slider-area">
+					<div class="owl-carousel owl-theme">
+							<?php if ($sections->have_posts()): ?>
+								<?php while ($sections->have_posts()) : $sections->the_post(); ?>
+								<div class="item">
+									<?php the_post_thumbnail(); ?>
+								</div>
+								<?php endwhile; ?>
+							<?php endif; ?>
+						<?php wp_reset_query(); ?>
+					</div>
+				</div>
+ 		</div>
+ 	</div>
+ </div>
+
+ <!-- início de Clientes -->
+ <div class="section">
+ 	<div class="container parceiros">
+ 		<div class="row">	
+ 						<?php 
+			$sections = new WP_Query(
+				array(
+					'post_type' => 'clientes',
+					'ignore_sticky_posts' => true,
+					'showposts' => -1,
+					'orderby' => 'title',
+					'order' => 'ASC'
+					)
+			);
+			?>
+				<h1>Clientes</h1>
+				<div class="slider-area">
+					<div class="owl-carousel owl-theme">
+							<?php if ($sections->have_posts()): ?>
+								<?php while ($sections->have_posts()) : $sections->the_post(); ?>
+								<div class="item">
+									<?php the_post_thumbnail(); ?>
+								</div>
+								<?php endwhile; ?>
+							<?php endif; ?>
+						<?php wp_reset_query(); ?>
+					</div>
+				</div>
+ 		</div>
+ 	</div>
+ </div>
 
 <?php get_footer(); ?>

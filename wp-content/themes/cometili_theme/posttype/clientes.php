@@ -1,10 +1,10 @@
 <?php
-// Dê um Find Replace (CASE SENSITIVE!) em Slider pelo nome do seu post type 
+// Dê um Find Replace (CASE SENSITIVE!) em Clientes pelo nome do seu post type 
 
-class Slider
+class Clientes
 {
-    const NAME = 'Sliders';
-    const MENU_NAME = 'Slider';
+    const NAME = 'Clientes';
+    const MENU_NAME = 'Clientes';
 
     /**
      * alug do post type: deve conter somente minúscula 
@@ -30,19 +30,19 @@ class Slider
         register_post_type(self::$post_type, array(
             'labels' => array(
                 'name' => _x(self::NAME, 'post type general name', 'SLUG'),
-                'singular_name' => _x('Slider', 'post type singular name', 'SLUG'),
+                'singular_name' => _x('Clientes', 'post type singular name', 'SLUG'),
                 'add_new' => _x('Adicionar Novo', 'image', 'SLUG'),
-                'add_new_item' => __('Adicionar novo Slider', 'SLUG'),
-                'edit_item' => __('Editar Slider', 'SLUG'),
-                'new_item' => __('Novo Slider', 'SLUG'),
-                'view_item' => __('Ver Slider', 'SLUG'),
-                'search_items' => __('Search Sliders', 'SLUG'),
-                'not_found' => __('Nenhum Slider Encontrado', 'SLUG'),
-                'not_found_in_trash' => __('Nenhum Slider na Lixeira', 'SLUG'),
+                'add_new_item' => __('Adicionar novo Clientes', 'SLUG'),
+                'edit_item' => __('Editar Clientes', 'SLUG'),
+                'new_item' => __('Novo Clientes', 'SLUG'),
+                'view_item' => __('Ver Clientes', 'SLUG'),
+                'search_items' => __('Search Clientess', 'SLUG'),
+                'not_found' => __('Nenhum Clientes Encontrado', 'SLUG'),
+                'not_found_in_trash' => __('Nenhum Clientes na Lixeira', 'SLUG'),
                 'parent_item_colon' => ''
             ),
             'public' => true,
-            'rewrite' => array('slug' => 'Slider'),
+            'rewrite' => array('slug' => 'Clientes'),
             'capability_type' => 'post',
             'hierarchical' => true,
             'map_meta_cap ' => true,
@@ -119,4 +119,4 @@ class Slider
     }
 
 }
-Slider::init();
+Clientes::init();

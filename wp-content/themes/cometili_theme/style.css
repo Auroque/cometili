@@ -188,3 +188,42 @@ h3{
 	text-align: center;
 	color: #929292;
 }
+
+.owl-nav > div{
+	background-color: #781c80;
+	position: absolute;
+	top: 34%;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+.owl-nav > div:hover{
+	transition: 0.5s;
+	background-color: #8c4b92;
+}
+
+.owl-nav .owl-next{
+	right: 0;
+}
+
+.parceiros{
+	margin-top: 25px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+.parceiros h1{
+	color: #505050;
+	margin-left: 40px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
