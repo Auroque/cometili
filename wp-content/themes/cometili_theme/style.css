@@ -12,6 +12,7 @@ body{
 h3{
 	text-transform: uppercase;
 	margin-top: 200px;
+	font-weight: bold;
 }
 
 .navegacao{
@@ -99,6 +100,74 @@ h3{
 }
 
 .projeto{
-	margin: 50px 0;
+	background: #ffffff;
+	margin-top:25px;
+}
+
+.imagem-projeto{
 	width: 100%;
+}
+
+.artigo-post{
+	padding: 0 20px;
+}
+
+.artigo-post:nth-child(even){
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.artigo-post:nth-child(odd){
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+.postagens{
+	margin-top:20px;
+	background: #ffffff;
+	padding-top: 25px;
+	border-radius: 5px;
+}
+
+.postagens .row{
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+	border-radius: 5px;
+}
+
+.capsula{
+	position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    height: 240px;
+}
+
+.image-artigo{
+	padding: 20px 0;
+	width: 100%;
+    height: auto;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.title-artigo{
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.title-artigo::after{
+	content: '';
+	width: 50%;
+	height: 1px;
+	display: block;
+	margin:20px auto;
+	background-color: #ccc;
+}
+
+.artigo-post p{
+	text-align: center;
+	color: #929292;
 }
