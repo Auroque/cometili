@@ -23,7 +23,7 @@ h3{
 .rodape{
 	margin-top: 25px;
 	height: 100px;
-	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
+	background-image: linear-gradient(to left, #3bc6d5, #207d8d 130%);
 }
 
 .rodape .row{
