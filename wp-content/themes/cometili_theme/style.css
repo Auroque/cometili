@@ -9,6 +9,11 @@ body{
 	background: #f0f0f0;
 }
 
+h3{
+	text-transform: uppercase;
+	margin-top: 200px;
+}
+
 .navegacao{
 	height: 78px;
 	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
@@ -69,38 +74,31 @@ body{
 	line-height: 78px;
 }
 
-.slider-container{
-	float: left;
-    width: 100%;
-    height: 530px;
-    top: -78px;
-    position: relative;
-    z-index: -1;
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider {
+  width: 100%;
+  height: 650px;
 }
 
-.slide-title{
-	float: left;
-    top: -300px;
-    text-transform: uppercase;
-    width: 100%;
-    font-weight: bold;
-    display: table;
-    text-align: center;
-    position: relative;
-    color: #ffffff;
-    z-index: 99999;
+.slides li{
+	height: 650px!important;
 }
-
-.owl-carousel .owl-stage-outer{
-	height: 526px;
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
 }
 
 .projeto{
-	float: left;
-	padding: 0 50px;
-}
-
-.projeto img{
+	margin: 50px 0;
 	width: 100%;
-	height: auto;
 }
