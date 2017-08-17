@@ -20,6 +20,16 @@ h3{
 	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
 }
 
+.rodape{
+	margin-top: 25px;
+	height: 100px;
+	background-image: linear-gradient(to left, #207d8d, #3bc6d5 130%);
+}
+
+.rodape .row{
+	margin-bottom: 0;
+}
+
 .navegacao2{
 	width: 100%;
     height: 78px;
@@ -29,6 +39,12 @@ h3{
 
 .logo{
 	padding: 5px 0;
+	width: 100%;
+	height: auto;
+}
+
+.logo-rodape{
+	padding-top: 10px;
 	width: 100%;
 	height: auto;
 }
@@ -102,6 +118,7 @@ h3{
 .projeto{
 	background: #ffffff;
 	margin-top:25px;
+	border-radius: 5px;
 }
 
 .imagem-projeto{
